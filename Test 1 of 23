@@ -1,0 +1,29 @@
+:26→K
+:1.1→B
+:{4Ans→A
+:ClrHome
+:For(A,1,E2
+:randInt(1,16)+.1randInt(1,8→C
+:Repeat C=Ans(1
+:A→dim(⌊A
+:⌊A(1
+:Output(10fPart(Ans),int(Ans),"O
+:Output(10fPart(B),int(B),"   // 1 space
+:Output(10fPart(C),int(C),"*
+:getKey
+:If Ans=45
+:Goto 0
+:If Ans=34 or 2>abs(Ans-25
+:Ans→K
+:⌊A(A→B
+:⌊A(1)+(K=26)-(K=24)+.1((K=34)-(K=25
+:If max(LA=Ans
+:Goto 0
+:Ans+16(not(int(Ans))-(17=int(Ans)))+.8(not(fPart(Ans))-(.9=fPart(Ans
+:augment({Ans},⌊A→A
+:End
+:augment(Ans,{Ans(A→A
+:End
+:Lbl 0
+:ClrHome
+:A
